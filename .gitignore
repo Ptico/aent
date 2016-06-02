@@ -1,0 +1,5 @@
+node_modules/
+.gobble-build/
+tmp/
+build/
+.DS_Store

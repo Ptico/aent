@@ -1,0 +1,42 @@
+{
+  "name": "aent",
+  "version": "0.1.0",
+  "description": "XMLHTTP library",
+  "main": "src/aent.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.9.0",
+    "babel-plugin-transform-es2015-computed-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-constants": "^6.1.4",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-parameters": "^6.9.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.8.0",
+    "babel-plugin-transform-undefined-to-void": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "gobble": "^0.10.2",
+    "gobble-babel": "^6.0.0",
+    "gobble-esperanto-bundle": "^0.2.1",
+    "gobble-sorcery": "^0.3.0",
+    "gobble-uglifyjs": "^0.2.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha-phantomjs": "^0.11.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "andrey@aejis.eu",
+  "license": "MIT"
+}
